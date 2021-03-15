@@ -23,14 +23,14 @@ p.lead {
 }
 
 .bg-primary {
-	background-color: #0010c2!important;
+	background-color: #c29b00!important;
 	background-image: url(../assets/img/3px-tile.png);
 }
 
 .text-primary {
-    color: #0010c2!important;
+    color: #c29b00!important;
 }
 
 a {
-    color: #0010c2;
+    color: #c29b00;
 }
