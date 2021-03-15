@@ -1,11 +1,5 @@
 body {
 	font-family: 'Noto Sans TC', sans-serif;
-	font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #ff6347;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -13,4 +7,30 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .subheading {
 	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6, .subheading{
+    text-transform: none;
+}
+
+h1, .h1 {
+    font-size: 5rem;
+}
+
+p.lead {
+	font-size: 1.2rem;
+}
+
+.bg-primary {
+	background-color: #0010c2!important;
+	background-image: url(../assets/img/3px-tile.png);
+}
+
+.text-primary {
+    color: #0010c2!important;
+}
+
+a {
+    color: #0010c2;
 }
